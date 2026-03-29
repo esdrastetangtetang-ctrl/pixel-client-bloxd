@@ -9,7 +9,7 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {
+(() => {
     'use strict';
 
     alert('🟢 Pixel Client: Injection succefull! 🟢');
