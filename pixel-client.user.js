@@ -123,7 +123,7 @@
                 const opts = { key: 'e', code: 'KeyE', keyCode: 69, bubbles: true };
                 document.dispatchEvent(new KeyboardEvent('keydown', opts));
                 document.dispatchEvent(new KeyboardEvent('keyup', opts));
-            }, 50);
+            }, 33);
             btnAutoE.innerHTML = 'Auto-Loot [E] : [ON]';
             btnAutoE.style.backgroundColor = 'green';
         } else {
